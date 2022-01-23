@@ -46,6 +46,14 @@ class FirstFragment : Fragment() {
         //viewModel.getPOJORetrofitResponses().observe(viewLifecycleOwner, Observer {
         //   when(it.status) {
         //      Status.SUCCESS -> {
+        //          we fill our POJORetrofitResponseItemViewModel array by setting it to it.data then we modify the ui
+        //          then we set the elements of our recyclerview adapter
+        //          and set the recyclerview adapter here
+        //      }
+        //      Status.LOADING -> {
+        //
+        //      }
+        //      Status.ERROR -> {
         //
         //      }
         //   }
