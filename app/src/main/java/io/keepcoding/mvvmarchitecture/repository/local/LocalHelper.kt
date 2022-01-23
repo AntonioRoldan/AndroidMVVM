@@ -4,5 +4,6 @@ import io.keepcoding.mvvmarchitecture.domain.Entity
 // This is to use coroutines in our functions
 
 interface LocalHelper {
-    suspend fun getEntityById(id: String): Entity
+    // TODO: Add insert and delete methods from DataNameDao
+    suspend fun getEntities(): List<Entity>
 }

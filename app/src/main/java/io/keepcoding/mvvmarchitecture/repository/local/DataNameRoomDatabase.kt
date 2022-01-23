@@ -8,7 +8,7 @@ import io.keepcoding.mvvmarchitecture.domain.Entity
 import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.internal.synchronized
 
-
+// Each entity is a table with a table name
 @Database(entities = [Entity::class], version = 1, exportSchema = false)
 abstract class DataNameRoomDatabase : RoomDatabase() {
     abstract fun dataNameDao() : DataNameDao
