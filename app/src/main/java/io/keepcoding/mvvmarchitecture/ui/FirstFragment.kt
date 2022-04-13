@@ -11,7 +11,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import io.keepcoding.mvvmarchitecture.utils.CustomViewModelFactory
 import io.keepcoding.mvvmarchitecture.R
-import kotlinx.android.synthetic.main.fragment_first.*
+
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
